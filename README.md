@@ -36,10 +36,11 @@ Mocha comes with several reporters that can be used:
 
 
 ## Specifying the Output
-The output file is saved to the file given in the MOCHA_REPORTER_FILE environment variable, the file named in config.json, or process.cwd()/xunit.xml
+The output file is saved to the file given in the MOCHA_REPORTER_FILE environment variable, the file named in config.json, or process.cwd()/mocha_report.tap
 
-> MOCHA_REPORTER_FILE=output/xunit.xml mocha -R xunit-file
+> MOCHA_REPORTER_FILE=output/report.tap mocha -R reporter-tapfile
 
 ## Credits
 The original idea and basis for the output file structure came from
 [xunit-file](https://npmjs.org/package/xunit-file)
+[reporter-file](https://npmjs.org/package/reporter-file)
