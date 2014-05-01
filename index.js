@@ -1,5 +1,5 @@
 'use strict';
 
-var ReporterFile = require("./lib/reporter-file");
+var ReporterFile = require("./lib/reporter-tapfile");
 
 module.exports = ReporterFile;
