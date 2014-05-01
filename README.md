@@ -1,13 +1,13 @@
-reporter-file
-==========
+reporter-tapfile
+================
 
-Similar to the xunit-file reporter. Allows you to specify any report style to
-run, but will also write to the specified file
+Similar to the xunit-file and the reporter-file reporter. Allows you to specify any report style to
+run, but will also write to the specified file in TAP format.
 
 ## How to use
 
-1. Add "reporter-file" to your package.json devDependencies
-2. Run mocha with either `-R reporter-file` or `--reporter reporter-file`
+1. Add "reporter-tapfile" to your package.json devDependencies
+2. Run mocha with either `-R reporter-tapfile` or `--reporter reporter-tapfile`
 
 ## Specifying the Reporter
 The reporter can be specified in the MOCHA_REPORTER environment variable or
